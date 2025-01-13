@@ -1,4 +1,7 @@
 {
   "name": "imagePickerTest",
-  "displayName": "imagePickerTest"
+  "displayName": "imagePickerTest",
+  "expo": {
+    "plugins": ["expo-image-picker"]
+  }
 }
