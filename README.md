@@ -1,8 +1,29 @@
+## Project Notes:
+
+Instructions as received:
+Assessment:
+
+Stand up a “hello world” RN iOS/Google app that uses image picker v13(expo-image-picker) and displays multiple section results in a carousel. Please be sure to use V13 not the latest version the client is trying to gauge how you solve issues using old and new architecture.
+
+I'm assuming it means multiple selection, as multiple section doesnt make any sense, and I dont have a direct way of contacting the people that could clarify. If this was a real project, I would find the stakeholder involved with creating the requirements and clarify.
+
+If this was a real project, I would push back HEAVILY against using expo. In my experience it causes way more problems than it solves, even with the changes they have made in the last few years.
+
+I was unable to get android working, there are compatibility issues with expo, expo image picker, and the react native project.
+
+I tried setting up a JVM toolchain as the error first suggested, tried updating the package to compile with the same versions as each other - but then ran into other errors, I'm assuming related to changes made between the two versions (11 and 17). I am not an android expert, and if needed I could have eventually figured out a fix, but it could have possibly taken me weeks to do so.
+
+If this was a real project I would have looked for an alternative, and assuming no alternative was available, we would need to decide if it was worth the cost for me to try and fix the problem, hire an android contractor to fix the problem, wait for the original team to fix the problem - opening an issue with them - or write our own solution.
+
+In the past, I've had actual android developers work on updating 3rd party packages that need this level of work to be compatable. I've fixed smaller issues on 3rd party packages in the past, but I would need to learn several concepts about android and kotlin to be able to fix this particular issue.
+
+I would love to chat in person about what I went through doing this challenge.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
